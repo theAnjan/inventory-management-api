@@ -1,0 +1,31 @@
+.nav_bar{
+  height: 50px;
+  background-color: darkcyan;
+}
+
+.nav_list{
+  list-style-type: none;
+} 
+
+.nav_item a {
+  color: white;
+  float:left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav_item:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.nav_item:active{
+  font-weight: bold;
+}
+
+.logout{
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  color:white;
+}
